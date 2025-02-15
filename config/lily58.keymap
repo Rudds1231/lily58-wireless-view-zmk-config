@@ -42,11 +42,11 @@
 
             display-name = "Games";
             bindings = <
-&kp DELETE      &kp N0  &kp N9  &kp N8            &kp N7        &kp NUMBER_6                          &kt N5         &kp NUMBER_4  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp ESCAPE
-&kp TAB         &kp Q   &kp W   &kp E             &kp R         &kp T                                 &kp I          &kp E         &kp W         &kp Q         &trans        &kp TAB
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D             &kp F         &kp G                                 &kp F          &kp A         &kp S         &kp D         &trans        &kp RIGHT_SHIFT
-&trans          &kp Z   &kp X   &kp C             &kp V         &kp B         &tog 1       &tog 1     &kp B          &kp N         &kp M         &kp COMMA     &kp PERIOD    &kp ENTER
-                                &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp SPACE    &kp SPACE  &kp RIGHT_ALT  &kp LEFT_GUI  &kp RCTRL
+&kp DELETE      &kp N0         &kp N9      &kp N8            &kp N7        &kp NUMBER_6                           &kt N5        &kp NUMBER_4  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_1  &kp ESCAPE
+&kp TAB         &kp P          &kp O       &kp I             &kp U         &kp Y                                  &kp T         &kp R         &kp E         &kp W         &kp Q         &kp TAB
+&kp LEFT_SHIFT  &kp SEMICOLON  &kp L       &kp K             &kp J         &kp H                                  &kp G         &kp F         &kp D         &kp S         &kp A         &kp RIGHT_SHIFT
+&trans          &kp SQT        &kp PERIOD  &kp COMMA         &kp M         &kp N          &tog 1       &tog 1     &kp B         &kp V         &kp C         &kp X         &kp Z         &kp ENTER
+                                           &kp LEFT_CONTROL  &kp LEFT_GUI  &kp RIGHT_ALT  &kp SPACE    &kp SPACE  &kp LEFT_ALT  &kp LEFT_GUI  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
